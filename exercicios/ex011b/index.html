@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Midias em HTML5</title>
+</head>
+<body>
+                    <h1>Imagens Dinamicas</h1>
+                    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+                    <p>Tag <strong>picture.</strong> ela simboliza que a sua imagem tera mais recursos e ou fontes.</p>
+                    <p>Toma cuidado porque a ordem tem q ser respeitada. do menos para o maior, ou aplique o maior, deppois insira a imagem media e pequena (cima para baixo). <br> 
+                                        ex.: source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png" </p>
+                    <picture>
+                                        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+                                        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+                                        <img src="imagens/foto-g.png" alt="Imagem Flexivel" srcset="">
+
+                    </picture>
+
+                    <h1>Reproduzindo Audio</h1>
+                    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+                    <p> Podemos inserir um parametro dentro de "audio src= midia/etcetcetc.mp4, ppis google chrome e demais navegadorfes ja nao estao aceitando mp3/mpeg <strong>para executar o autoplay.</strong>"</p>
+                    <p>audio preload="metadata" controls> <br> 
+                                        <strong>
+                                                            source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/mpeg" <br>
+                                                            source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/ogg" <br>
+                                                            source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/wav"<br>
+                                        </strong>
+                                       
+                    <audio preload="metadata" controls> 
+                                        <source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/mpeg">
+                                        <source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/ogg">
+                                        <source src="media/My Dog Is Happy - Reed Mathis.mp3" type="audio/wav">
+                                       
+                    </audio>
+                    <p>Inserindo um audio mp4 para tentar funcionar o autoplay mas n funcionou. </p><audio src="media/audio sports.m4a" autoplay controls></audio>
+
+                                        <p>Se o seu navegador nao suportar o audio. Faca o <a href="media/My Dog Is Happy - Reed Mathis.mp3" download="My Dog Is Happy - Reed Mathis.mp3">Download aqui.</a> <br>  <strong>'a' href="media/My Dog Is Happy - Reed Mathis.mp3" <br> download="My Dog Is Happy - Reed Mathis.mp3">Download aqui.'/a'.</strong></p>
+
+                                        <h2>Videos</h2>
+                                        <p>cuidado sempre com direitos autorais. pexels.com te ajudam com videos para baixar. mp4,mp4v,webM e ogg ou ogv. <br> Baixar o programa "HandBrake" pode te ajudar com coversao de videos. </p>
+                                        
+                    
+</body>
+</html>

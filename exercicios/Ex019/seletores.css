@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* EM HTML id principal = em CSS "#" so pode um elemento
+Em HTML class = em css "." pode varios elementos*/
+body{
+                    margin: 10px;
+                    background-image: linear-gradient(-30deg, #31572C, #4F772D, #90A955);
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+                    background-attachment: fixed;
+                    
+     }
+h1{
+                    color: darkgreen;
+                    font-weight: bold;
+                    font-size: 22px;
+                    text-align: center;
+                    text-decoration:underline;
+                    padding: 15px;
+                    text-shadow: 3px 3px 3px black;
+}     
+
+h1#principal{
+                    color: darkgreen;
+                    font-size: 32px;
+                    font-weight: 900;
+
+}
+h2{                               
+     font-size: 22px;
+     box-shadow: 5px 5px 5px;
+     text-shadow: 2px 2px 2px black;
+    
+}
+p{
+                    font-size: 16px;
+                    width: 50%;
+}
+.basico{
+     color: chartreuse;
+     
+
+}
+.intermediario{
+     color: rgb(198, 71, 26);
+     
+}
+.avancado{
+     color: rgb(31, 97, 218);
+}
+.destaque{
+     background-color: burlywood;
+}
+.otario{
+     border: 2em;
+     color: blueviolet;
+     background-color: chocolate;
+}
